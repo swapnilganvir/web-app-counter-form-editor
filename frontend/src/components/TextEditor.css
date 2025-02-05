@@ -1,0 +1,25 @@
+.editor {
+  margin: 0 auto;
+  width: 70%;
+  grid-column: 1 / span 2;
+  color: #fff;
+}
+
+.editor .ql-toolbar {
+  border-radius: 8px 8px 0 0;
+}
+.editor .ql-container {
+  border-radius: 0 0 8px 8px;
+}
+
+.editor .ql-snow .ql-stroke {
+  stroke: #fff;
+}
+
+.editor .ql-snow .ql-picker-options {
+  background: #000;
+}
+
+.editor .ql-snow .ql-picker {
+  color: #fff;
+}

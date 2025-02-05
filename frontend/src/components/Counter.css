@@ -1,0 +1,34 @@
+.counter {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.counter .count {
+  color: #fff;
+  font-size: 25px;
+}
+
+.counter .btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.counter .btns button {
+  padding: 10px 35px;
+  background: none;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
